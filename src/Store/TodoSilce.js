@@ -18,7 +18,7 @@ const saveDataLocalStorage = (state) => {
 
 
 const initialState = {
-    todoItem: JSON.parse(localStorage.getItem("todoItem")).todoItem || [],
+    todoItem: localStorage.getItem("todoItem") ?  JSON.parse(localStorage.getItem("todoItem")).todoItem :  [],
     
 };
 
