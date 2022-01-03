@@ -1,0 +1,74 @@
+.container{
+    width:60vw;
+    margin: 2rem auto;
+    background:#fff;
+    border-radius: 10px;
+    padding:2rem 1rem;
+    box-shadow: 6px -1px 20px 9px #0000000f;
+    
+}
+
+.container .heading{
+    padding: 1rem;
+    border-bottom: 1px solid #c2c2c2;
+    text-align:center;
+}
+
+.form{
+    margin:2rem 0;
+    text-align:left;
+    position: relative;
+}
+
+.inputControl{
+    display:flex;
+    align-items: center;
+}
+
+.inputControl input{
+    padding:0.5rem;
+    border:2px solid #f2f2f2;
+    outline:none;
+    border-radius:3px ;
+    width: 350px;
+}
+
+
+
+.errMessages{
+    color: red;
+    position: absolute;
+    bottom:-50%;
+    font-size:0.8rem
+}
+
+.invalid input{
+    border:1px solid red;
+}
+
+
+@media screen and (max-width :600px){
+    .inputControl{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inputControl input{
+        margin-bottom: 1rem;
+        max-width: 200px;
+         padding:0.3rem;
+    }   
+
+    .inputControl Button{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width :400px){
+    .inputControl input{
+        max-width: 200px;
+        padding:0.3rem;
+    }   
+}
+

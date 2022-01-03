@@ -1,0 +1,62 @@
+
+.taskItem{
+   list-style: none; 
+    margin:1rem 0;
+}  
+
+.taskItem li{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0.5rem 0;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    transition:all 1s ease;
+}
+
+.icons > * {
+    margin-right: 1rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.checkCircle{
+    color:rgb(21, 175, 21)
+}
+
+.pencilSquar{
+    color:rgb(53, 53, 153);
+}
+
+.closeCircle{
+    color:rgb(243, 74, 74);
+}
+
+
+@media screen and (max-width:600px){
+
+    .taskItem li{
+        font-size: 1rem;
+    }
+
+    .icons > * {
+        font-size: 1rem;
+         margin-right: 0.5rem;
+    }
+}
+
+@media screen and (max-width:400px){
+
+    .taskItem li{
+        font-size: 0.7rem;
+    }
+
+    .icons > * {
+        font-size: 0.5rem;
+        margin-right: 0.3rem;
+    }
+}
+
+
+
+
