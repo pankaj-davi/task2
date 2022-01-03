@@ -92,3 +92,6 @@ const AllTasksTab = (props) => {
 }
 
 export default AllTasksTab;
+
+
+console.log("git status");
