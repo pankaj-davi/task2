@@ -62,6 +62,7 @@ const TodoSlice = createSlice({
             findEntry.isDone = !findEntry.isDone;
 
             saveDataLocalStorage(state);
+            console.log(state + " ");
         },
         
     }
