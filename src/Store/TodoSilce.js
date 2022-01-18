@@ -63,6 +63,8 @@ const TodoSlice = createSlice({
 
             saveDataLocalStorage(state);
             console.log(state + " ");
+            console.log(state + " ");
+            console.log(state + " ");
         },
         
     }
